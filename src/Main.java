@@ -4,6 +4,6 @@ public class Main {
     }
 
     public static NumberGenerator<? super Number> getGenerator() {
-        return number -> number.doubleValue() >= 0;
+        return number -> number.intValue() >= 0;
     }
 }
